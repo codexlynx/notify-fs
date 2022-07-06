@@ -1,4 +1,6 @@
 ## notify-fs
+[![AUR](https://img.shields.io/github/license/codexlynx/notify-fs)](LICENSE) [![](https://goreportcard.com/badge/github.com/codexlynx/notify-fs)](https://goreportcard.com/report/github.com/codexlynx/notify-fs)
+
 Connecting filesystem events with instant messaging.
 
 ### Behaviour:
@@ -17,3 +19,16 @@ This service is configured via environment variables.
 | `TELEGRAM_TOKEN`   | Telegram bot token      |
 | `TARGET_CHAT_ID`   | Telegram target chat id |
 | `ONLY_IMAGES`      | Send only images        |
+
+### Run:
+
+You can compile the binary.
+
+#### Compile:
+* Requirements:
+    * A version of __Docker__ with __BuildKit__ support.
+    * GNU __make__ utility.
+
+* Procedure:
+    * Run: `make`.
+    * Check the correct creation of `dist` directory.
